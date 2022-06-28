@@ -3,7 +3,7 @@
     "description": "PHP Composer app example.",
     "autoload": {
         "psr-4": {
-            "": "src/"
+            "": ["src/", "lib/"]
         }
     },
     "authors": [
