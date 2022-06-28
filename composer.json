@@ -12,5 +12,7 @@
             "email": "martin.markov@weareaccess.co.uk"
         }
     ],
-    "require": {}
+    "require": {
+        "symfony/filesystem": "^6.1"
+    }
 }
