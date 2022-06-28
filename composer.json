@@ -1,0 +1,16 @@
+{
+    "name": "martinmarkov/php-composer-app-example",
+    "description": "PHP Composer app example.",
+    "autoload": {
+        "psr-4": {
+            "Martinmarkov\\PhpComposerAppExample\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Martin Markov",
+            "email": "martin.markov@weareaccess.co.uk"
+        }
+    ],
+    "require": {}
+}
