@@ -3,7 +3,7 @@
         'name' => 'martinmarkov/php-composer-app-example',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'c122a8f2c8694d5ed2e9f2ddd8b6ddb21728192e',
+        'reference' => '34dbb003c7f7364f19568571b18d2382a9a896e7',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'martinmarkov/php-composer-app-example' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'c122a8f2c8694d5ed2e9f2ddd8b6ddb21728192e',
+            'reference' => '34dbb003c7f7364f19568571b18d2382a9a896e7',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

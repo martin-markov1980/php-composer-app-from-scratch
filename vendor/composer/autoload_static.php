@@ -18,10 +18,6 @@ class ComposerStaticInit1a7865ba58f868fa54f674681e98e2f6
             'Symfony\\Polyfill\\Ctype\\' => 23,
             'Symfony\\Component\\Filesystem\\' => 29,
         ),
-        'M' => 
-        array (
-            'Martinmarkov\\PhpComposerAppExample\\' => 35,
-        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -37,10 +33,10 @@ class ComposerStaticInit1a7865ba58f868fa54f674681e98e2f6
         array (
             0 => __DIR__ . '/..' . '/symfony/filesystem',
         ),
-        'Martinmarkov\\PhpComposerAppExample\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
+    );
+
+    public static $fallbackDirsPsr4 = array (
+        0 => __DIR__ . '/../..' . '/src',
     );
 
     public static $classMap = array (
@@ -52,6 +48,7 @@ class ComposerStaticInit1a7865ba58f868fa54f674681e98e2f6
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit1a7865ba58f868fa54f674681e98e2f6::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit1a7865ba58f868fa54f674681e98e2f6::$prefixDirsPsr4;
+            $loader->fallbackDirsPsr4 = ComposerStaticInit1a7865ba58f868fa54f674681e98e2f6::$fallbackDirsPsr4;
             $loader->classMap = ComposerStaticInit1a7865ba58f868fa54f674681e98e2f6::$classMap;
 
         }, null, ClassLoader::class);

@@ -1,10 +1,11 @@
 <?php
 require 'vendor/autoload.php';
 
-use Symfony\Component\Filesystem\Filesystem;
+use \Model\Person;
 
 echo 'Test';
+echo '<br>';
 
-$file_system = new Filesystem();
-
-$file_system->dumpFile(__DIR__ . '/new_file.txt', 'Test content.');
+$martin = new Person();
+$martin->setName('Martin');
+echo $martin->getName();
